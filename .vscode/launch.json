@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Current Karel File",
+      "request": "launch",
+      "mainClass": "stanford.karel.Karel",
+      "classPaths": ["$Auto"],
+      "cwd": "${workspaceFolder}",
+      "args": ["code=${fileBasenameNoExtension}"]
+    }
+  ]
+}
