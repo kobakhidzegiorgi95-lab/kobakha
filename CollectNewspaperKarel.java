@@ -14,7 +14,7 @@ public class CollectNewspaperKarel extends SuperKarel {
 	
 	// You fill in this part
 	public void run() {
-		move();
+			move();
 		move();
 		turnRight();
 		move();
@@ -32,6 +32,5 @@ public class CollectNewspaperKarel extends SuperKarel {
 		turnLeft();
 		turnLeft();
 
-		
 	}
 }

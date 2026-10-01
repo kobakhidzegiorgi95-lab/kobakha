@@ -16,7 +16,17 @@ public class MidpointFindingKarel extends SuperKarel {
 
 	// You fill in this part
 	public void run() {
-		
+
+		while (frontIsClear()) {
+			if(noBeepersPresent()) {
+				move();
+				move();
+				putBeeper();
+			} else {
+				move();
+			}
+		}
+		turnLeft();
 	}
 }
 
